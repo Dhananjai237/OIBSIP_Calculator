@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(0, 0, 255, 0.523);
+}
+
+#calculator {
+    margin: 60px 445px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+input {
+    margin: 10px 0px 10px 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    padding: 10px 16px;
+    background-color: rgba(0, 0, 255, 0.37);
+    text-align: right;
+    font-size: 25px;
+}
+
+input:hover {
+    background-color: rgba(0, 0, 255, 0.444);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+.dynamicStyle{
+    color: black;
+}
+.row {
+    margin: 10px 0px 10px 10px;
+}
+
+.row button {
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.row button:hover {
+    background-color: red;
+    border: 1px solid red;
+    font-size: 22px;
+}
+
+.lightButton {
+    border: 1px solid rgba(0, 0, 255, 0.37);
+    background-color: rgba(0, 0, 255, 0.37);
+    height: 60px;
+    width: 60px;
+}
+
+.lighterButton {
+    border: 1px solid rgba(0, 0, 255, 0.183);
+    background-color: rgba(0, 0, 255, 0.183);
+    height: 60px;
+    width: 60px;
+}
+
+.darkButton {
+    border: 1px solid rgba(0, 0, 255, 0.539);
+    background-color: rgba(0, 0, 255, 0.539);
+    height: 60px;
+    width: 60px;
+}
+
+.darkerButton {
+    border: 1px solid rgba(0, 0, 255, 0.685);
+    background-color: rgba(0, 0, 255, 0.685);
+    height: 60px;
+    width: 128px;
+}
+
+.darkestButton {
+    border: 1px solid rgba(0, 0, 255, 0.255);
+    background-color: rgb(0, 0, 255);
+    height: 60px;
+    width: 130px;
+}
+.specialButton {
+    border: 1px solid rgba(0, 0, 255, 0.614);
+    background-color: rgba(0, 0, 255, 0.614);
+    height: 60px;
+    width: 60px;
+}

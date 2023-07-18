@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div id="calculator">
+        <input type="text" value="0" id="input" onclick="input()">
+        <div class="row">
+            <button class="darkerButton" onclick="allClear()">clear</button>
+            <button class="lighterButton">.</button>
+            <button class="darkerButton" onclick="backSpace()">backspace</button>
+        </div>
+        <div class="row">
+            <button class="lightButton">7</button>
+            <button class="lightButton">8</button>
+            <button class="lightButton">9</button>
+            <button class="specialButton" onclick="exponent()">e</button>
+            <button class="specialButton" onclick="pi()"><i class="fad fa-pi"></i></button>
+        </div>
+        <div class="row">
+            <button class="lightButton">4</button>
+            <button class="lightButton">5</button>
+            <button class="lightButton">6</button>
+            <button class="darkButton">*</button>
+            <button class="darkButton">/</button>
+        </div>
+        <div class="row">
+            <button class="lightButton">1</button>
+            <button class="lightButton">2</button>
+            <button class="lightButton">3</button>
+            <button class="darkButton">+</button>
+            <button class="darkButton">-</button>
+        </div>
+        <div class="row">
+            <button class="lighterButton">(</button>
+            <button class="lightButton">0</button>
+            <button class="lighterButton">)</button>
+            <button class="darkestButton" onclick="enter()" id="dark">Enter</button>
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+
+</html>
